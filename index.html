@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
@@ -12,6 +13,7 @@
             <title>Frontend Mentor | Crowdfunding product page</title>
 </head>
 <body>
+
   <section id="landing">
     <nav>
       <div class="logo"><img src="images/logo.svg" alt=""></div>
@@ -25,6 +27,14 @@
       <img src="images/icon-hamburger.svg" alt="hamburger image toggle" class="hamburger">
       <img src="images/icon-close-menu.svg" alt="close menu image" class="close-menu">
     </nav>
+    <!-- Live Count -->
+    <div class="live-count">
+      <p>This page has</p>
+      <div class="not-text">
+        <div class="counter">0</div><i class="fas fa-eye"></i>
+      </div>
+      <p>Views</p>
+    </div>
   </section>
 
   <section id="wrapper">
@@ -313,6 +323,7 @@
 
   <script src="js/script.js"></script>
   <script src="js/calc.js"></script>
+  <script src="js/counter.js"></script>
 
 </body>
 </html>
